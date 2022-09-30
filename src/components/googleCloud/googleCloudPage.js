@@ -22,7 +22,7 @@ function googleCloudPage({}) {
     async function getUser() {
       try {
         const response = await fetch(
-          'http://techmergers.in:5000/api/google/'
+          'https://techmergers.in/api/google/'
         );
 
         if (!response.ok) {

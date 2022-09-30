@@ -10,7 +10,7 @@ function IndexPage({}) {
     async function getUser() {
       try {
         const response = await fetch(
-          'http://techmergers.in:5000/api/homepage/'
+          'https://techmergers.in/api/homepage/'
         );
 
         if (!response.ok) {

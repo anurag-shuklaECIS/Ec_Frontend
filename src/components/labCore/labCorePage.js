@@ -7,7 +7,7 @@ function IndexPage({}) {
   useEffect(() => {
     async function getUser() {
       try {
-        const response = await fetch('http://techmergers.in:5000/api/labcore/');
+        const response = await fetch('https://techmergers.in/api/labcore/');
 
         if (!response.ok) {
           throw new Error(`Error! status: ${response.status}`);

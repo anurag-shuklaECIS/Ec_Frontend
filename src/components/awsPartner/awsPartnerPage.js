@@ -16,7 +16,7 @@ function pytDevPage({}) {
     async function getUser() {
       try {
         const response = await fetch(
-          'http://techmergers.in:5000/api/aws/'
+          'https://techmergers.in/api/aws/'
         );
 
         if (!response.ok) {
