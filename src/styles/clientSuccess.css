@@ -1,0 +1,117 @@
+.clientMainContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.clientContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 50px 0px;
+}
+
+.ourClientContaier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.outClientimg {
+  width: 100%;
+}
+
+.outClientimg img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.ourClientimgText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.clientHeaderText {
+  display: flex;
+  margin: 20px 0px;
+  font-size: x-large;
+  font-weight: 600;
+  color: #0065cf;
+  align-items: center;
+}
+
+.divLine {
+  background: black;
+  width: 100%;
+  height: 1px;
+  margin: 30px 0px;
+}
+
+.clientModalContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalContainer {
+  width: 100%;
+}
+
+.modalName {
+  display: flex;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  background: #e6e6e6;
+  padding: 15px;
+  align-items: center;
+}
+
+.modalLink {
+  width: 100%;
+  background: #f1f1f1;
+  padding: 15px;
+  justify-content: start;
+  align-items: center;
+}
+
+.modalName:hover {
+  background: #007cba;
+  color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+  .clientHeaderText {
+    margin: 20px 0px;
+    font-size: x-large;
+    font-weight: 600;
+    color: #0065cf;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .clientHeaderText {
+    text-align: center;
+    display: flex;
+    margin: 20px 0px;
+    font-size: x-large;
+    font-weight: 600;
+    color: #0065cf;
+    -moz-box-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .modalName {
+    display: -moz-box;
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    background: #e6e6e6;
+  }
+}

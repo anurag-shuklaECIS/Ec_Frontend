@@ -1,0 +1,299 @@
+.contactUsMainContainer {
+  display: flex;
+  width: 1;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+textarea{
+  outline: none;
+  border-bottom: 2px solid #cad5e2 !important;
+}
+
+label{
+  cursor: default;
+}
+
+
+.PhoneInput{
+  margin: 5px 2px 20px !important;
+  width: 100%;
+}
+
+.PhoneInput input{
+  margin: 20px 0px !important;
+}
+
+.contactUsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.topHeadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.topHeadingContainer h1 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #0065cf;
+  margin: 15px 0px;
+}
+
+.topHeadingContainer p {
+  letter-spacing: 1px;
+  line-height: 1.6;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.emailContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 35px 4px;
+}
+
+.fomeContainer {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.fomeContainer form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: unset;
+}
+
+.fomeContainer form label {
+  font-size: smaller;
+  color: #666;
+}
+
+.fomeContainer form input {
+  width: 100%;
+  border-bottom: 2px solid #cad5e2;
+  margin: 10px 0px 45px 0px;
+  box-shadow: none;
+  border-radius: unset;
+}
+
+.fomeContainer form textarea {
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin: 30px 0px 50px 0px;
+}
+.fomeContainer form button {
+  background: #ff7a59;
+  border-color: #ff7a59;
+  color: #ffffff;
+  line-height: 12px;
+  padding: 15px;
+  font-size: medium;
+}
+
+.emailDetails {
+  width: 40%;
+  margin: 0px 20px;
+}
+
+.details {
+  margin: 0px 0px 65px 0px;
+}
+
+.details h1 {
+  font-family: 'jost';
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px 0px 25px 0px;
+}
+
+.details ul li {
+  font-family: 'jost';
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px 0px;
+}
+
+.adressContainer {
+  display: flex;
+}
+
+.adressBox {
+  width: 50%;
+}
+
+.adress {
+  margin: 50px 0px;
+}
+
+.adress h1 {
+  font-size: 21px;
+  font-weight: bold;
+  margin: 0px 0px 10px 0px;
+}
+
+.adress h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px 0px;
+  line-height: 2;
+}
+
+@media screen and (max-width: 450px) {
+  .emailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px 20px;
+  }
+  
+
+  .fomeContainer form label {
+    font-size: small;
+    color: #666;
+  }
+
+  .fomeContainer form input {
+    width: 100%;
+    border-bottom: 2px solid #cad5e2;
+    margin: 0px 0px 25px 0px;
+    box-shadow: none;
+  }
+
+  .emailDetails {
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  .details h1 {
+    font-size: large;
+    font-weight: 600;
+    margin: 0px 0px 25px 0px;
+  }
+
+  .details ul li {
+    font-size: medium;
+    font-weight: 400;
+    margin: 0px 0px;
+  }
+  .details {
+    margin: 0px 0px 50px 0px;
+  }
+
+  .adressContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .adressBox {
+    width: 100%;
+  }
+
+  .adress {
+    margin: 30px 0px;
+  }
+
+  .adress h1 {
+    font-size: large;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+  }
+  .adress h4 {
+    font-size: medium;
+    font-weight: 400;
+    margin: 0px 0px;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .details h1 {
+    font-size: large;
+    font-weight: 600;
+    margin: 0px 0px 25px 0px;
+  }
+
+  .fomeContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .details ul li {
+    font-size: medium;
+    font-weight: 400;
+    margin: 0px 0px;
+  }
+  .details {
+    margin: 0px 0px 50px 0px;
+  }
+
+  .adress {
+    margin: 30px 0px;
+  }
+
+  .adress h1 {
+    font-size: large;
+    font-weight: 600;
+    margin: 0px 0px 10px 0px;
+  }
+  .adress h4 {
+    font-size: medium;
+    font-weight: 400;
+    margin: 0px 0px;
+    line-height: 1.6;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px #ddd;
+}
+
+.input_container {
+  margin-bottom: 20px;
+}
+.input {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+}
+.btn_container {
+  text-align: center;
+}
+button {
+  background: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}

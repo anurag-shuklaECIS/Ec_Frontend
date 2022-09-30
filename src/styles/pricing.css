@@ -1,0 +1,410 @@
+.priceHeading {
+  font-size: xx-large;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+
+.platformContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.titlecost{
+  float: none;
+    display: block;
+    overflow: hidden;
+    margin-top: 40px!important;
+
+    margin-bottom: 50px;
+    border: 1px solid #000!important;
+    border-radius: 5px!important;
+    padding: 20px 30px!important;
+    box-shadow: rgba(0,0,0,.4) 0 8px 12px 0!important;
+}
+
+.titlecost p{
+  font-family: inherit!important;
+  font-size: 30px!important;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.platform {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 25px;
+}
+
+.platform label {
+  font-size: large;
+  font-weight: 400;
+  margin: 15px 0px;
+}
+
+.platform select {
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 8px 40px 8px 12px;
+  border: 2px solid #6598ff;
+  color: #212121;
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE4IDE4Ij48cGF0aCBkPSJNMTIuNDQgNi40NEw5IDkuODggNS41NiA2LjQ0IDQuNSA3LjUgOSAxMmw0LjUtNC41eiIgZmlsbD0iIzY1OThmZiI+PC9wYXRoPjwvc3ZnPg==');
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-position-x: calc(100% - 17px);
+  background-color: #fff;
+  -webkit-appearance: none;
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: 400;
+  color: #333;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 3;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 2px solid #6598ff;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #6598ff;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: '';
+  top: 3px;
+  left: 5px;
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 5px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.radioListContainer {
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+
+  margin: 10px 0px;
+}
+
+.radioListHeading {
+  color: #212121;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-family: PTSans-Regular, sans-serif;
+  margin: 20px 0px;
+}
+
+.radioListMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-parent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+  margin: 20px 0px;
+}
+.slider-parent input[type='range'] {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  background: #999999;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  margin: 5px 0px;
+}
+
+/* .buble{
+  position:absolute;
+} */
+
+.priceMainTotalBox {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.priceMainTotalBox h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.priceTotalBox {
+  background: #6598ff;
+  width: 40%;
+  text-align: end;
+
+  padding: 8px 20px;
+}
+
+.priceTotalBox p {
+  font-size: larger;
+  color: #e2e2e2;
+  margin: 5px 0px;
+  font-weight: 100;
+}
+
+.priceTotalBox h3 {
+  font-size: x-large;
+  color: #fff;
+}
+
+.priceTotal {
+  background: #6598ff;
+  width: 100%;
+  text-align: end;
+
+  padding: 8px 20px;
+}
+
+.priceTotal p {
+  font-size: larger;
+  color: #e2e2e2;
+  margin: 5px 0px;
+  font-weight: 100;
+}
+
+.priceTotal h3 {
+  font-size: x-large;
+  color: #fff;
+}
+
+.priceMainTotal {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0px;
+}
+.reqForm {
+  width: 100%;
+}
+
+.reqForm form {
+  width: 100%;
+  max-width: 100%;
+  margin: 30px 0px;
+  box-shadow: none;
+}
+
+.reqForm form input {
+  width: 70%;
+  border: 2px solid #6598ff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  box-shadow: none;
+}
+
+.reqForm form select {
+  width: 70%;
+  border: 2px solid #6598ff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  box-shadow: none;
+}
+.reqForm form textarea {
+  width: 70%;
+  border: 2px solid #6598ff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  box-shadow: none;
+}
+
+.reqForm form input[type='submit'] {
+  width: 25%;
+  border: 2px solid #6598ff;
+  padding: 15px;
+  border-radius: 50px;
+  margin: 20px 0px;
+  background: #fff;
+  color: black;
+  font-weight: 100;
+  font-size: 15px;
+  box-shadow: none;
+}
+
+.reqForm form input[type='submit']:hover {
+  width: 25%;
+  border: 2px solid #6598ff;
+  padding: 15px;
+  border-radius: 50px;
+  margin: 20px 0px;
+  background: #6598ff;
+  color: #fff;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.questionTitle {
+  font-size: large;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+
+.questonPara {
+  color: black;
+  font-size: medium;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.questonPara li {
+ 
+  margin-left: 17px;
+
+}
+
+.questionContainer div {
+  margin: 50px 0px;
+}
+
+@media screen and (max-width: 750px) {
+  .platformContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    flex-direction: column;
+  }
+
+  .platform {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 60px;
+    width: 90%;
+  }
+
+  .radioListContainer {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+  }
+
+  .radioListHeading {
+    color: #212121;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: PTSans-Regular, sans-serif;
+    margin: 15px 0px;
+  }
+
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-weight: 400;
+    color: #333;
+  }
+  .priceMainTotalBox h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+
+  .priceMainTotalBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+  }
+  .priceTotalBox {
+    background: #6598ff;
+    width: 70%;
+    text-align: end;
+    padding: 8px 20px;
+  }
+  .priceTotal h3 {
+    font-size: large;
+    color: #fff;
+  }
+
+  .reqForm form input[type='submit'] {
+    width: 80%;
+    border: 2px solid #6598ff;
+    padding: 9px;
+    border-radius: 50px;
+    margin: 20px 0px;
+    background: #fff;
+    color: black;
+    font-weight: 100;
+    font-size: 12px;
+    box-shadow: none;
+  }
+}

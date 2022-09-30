@@ -1,0 +1,163 @@
+.newsCardContainer {
+  border: 1px solid #dad5d5;
+  width: 30%;
+  margin: 20px;
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 9%), 0 3px 3px 0 rgb(0 0 0 / 19%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+time {
+  color: #989898;
+  font-size: 13px;
+  font-family: 'Jost';
+  font-weight: 600;
+}
+.cardHeader {
+  margin: 10px;
+}
+
+.blogImg {
+  width: 100% !important;
+  transition: transform 0.5s;
+  opacity: 1;
+}
+.blogImg:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+.cardLeftImage {
+  width: 100%;
+}
+
+.cardHeader h1 {
+  font-size: medium;
+  font-weight: 500;
+}
+.cardHeader p {
+  font-size: smaller;
+}
+
+.cardboxContainer {
+  display: flex;
+}
+
+.newsmainContaier {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cardLeft {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 10px;
+}
+.cardLeft p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 20px 0px;
+  color: #000000;
+}
+.cardLeft h1 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  margin: 20px 0px;
+  color: #343434;
+}
+
+.cardLeftText {
+  width: 100%;
+  margin: 15px;
+}
+
+.cardRight {
+  width: 40%;
+  border-top: 0.5px solid #333;
+
+  border-bottom: 0.5px solid #333;
+  padding: 10px;
+}
+
+.cardPricing {
+  display: flex;
+  margin: 10px;
+}
+
+.cardBottom {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #bbbbbb;
+  border: none;
+  color: black;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* media responsive */
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: medium;
+  }
+
+  .cardboxContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardLeft {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    border-top: 0.5px solid #333;
+    border-right: none;
+    border-bottom: 0.5px solid #333;
+    padding: 10px;
+  }
+
+  .cardRight {
+    width: 100%;
+    border-top: none;
+
+    border-bottom: 0.5px solid #333;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .newsmainContaier {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .newsCardContainer {
+    border: 1px solid #dad5d5;
+    width: 100%;
+    margin: 20px;
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 9%), 0 3px 3px 0 rgb(0 0 0 / 19%);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    font-size: xx-small;
+  }
+}

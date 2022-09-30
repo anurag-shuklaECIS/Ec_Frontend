@@ -1,0 +1,112 @@
+.content {
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+  line-height: 1.625 !important;
+}
+
+.content p,
+.content ul,
+.content ol,
+.content blockquote {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.content a {
+  text-decoration: underline !important;
+}
+
+.content ul,
+.content ol {
+  padding-left: 1rem !important;
+}
+
+.content ul {
+  list-style-type: disc !important;
+}
+
+.content ol {
+  list-style-type: decimal !important;
+}
+
+.content ul > li > ul,
+.content ol > li > ol {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 1rem !important;
+}
+
+.content ul > li > ul {
+  list-style: circle !important;
+}
+
+.content h2 {
+  margin-bottom: 1rem !important;
+  margin-top: 3rem !important;
+  font-size: 1.875rem !important;
+  line-height: 2.25rem !important;
+  line-height: 1.375 !important;
+}
+
+.content h3 {
+  margin-bottom: 1rem !important;
+  margin-top: 2rem !important;
+  font-size: 1.5rem !important;
+  line-height: 2rem !important;
+  line-height: 1.375 !important;
+}
+
+.content h4 {
+  margin-bottom: 1rem !important;
+  margin-top: 1.5rem !important;
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
+  line-height: 1.375 !important;
+}
+
+.content pre {
+  overflow-x: auto !important;
+  padding: 1rem !important;
+  background-color: #f3f4f6 !important;
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+  line-height: 1.25 !important;
+  white-space: pre !important;
+  border-width: 1px !important;
+  border-color: #9ca3af !important;
+}
+
+.content code {
+  font-size: 0.875rem !important ;
+  line-height: 1.25rem !important;
+}
+
+.content figcaption {
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+  text-align: center !important;
+}
+
+.content blockquote {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  margin-left: 0 !important;
+  background-color: #e5e7eb !important;
+  font-style: italic !important;
+  border-left-width: 4px !important;
+  border-color: #6b7280 !important;
+}
+
+.content blockquote p {
+  margin-top: 0 !important;
+}
+
+.content blockquote cite {
+  font-style: normal !important;
+}
+
+.content audio {
+  width: 100% !important;
+}

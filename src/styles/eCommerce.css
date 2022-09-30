@@ -1,0 +1,32 @@
+.successStory {
+  padding: 40px;
+  width: 45%;
+  height: 80%;
+  border-top-left-radius: 59px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 59px;
+  border-bottom-left-radius: 0;
+  border: 2px solid rgba(0, 152, 231, 0.298) !important;
+  background-color: #fff !important;
+  margin: 30px;
+}
+
+.successStory h1 {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 750px) {
+  .successStory {
+    padding: 20px;
+    width: 100%;
+
+    border-top-left-radius: 59px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 59px;
+    border-bottom-left-radius: 0;
+    border: 2px solid rgba(0, 152, 231, 0.298) !important;
+    background-color: #fff !important;
+    margin: 10px;
+  }
+}

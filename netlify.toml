@@ -1,0 +1,10 @@
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = [ "@ampproject/toolbox-optimizer", "sharp"]
+
+  [build.environment]
+  NEXT_IMAGE_ALLOWED_DOMAINS = "ecinfosolutions.com"
+
+
+
+

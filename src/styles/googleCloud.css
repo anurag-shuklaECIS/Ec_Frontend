@@ -1,0 +1,276 @@
+.gl {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.glUl ul{
+  font-size: large;
+  font-weight: 400;
+  line-height: 2.3;
+  list-style: unset;
+  padding: 20px;
+}
+
+.djangoFormpre ul{
+  font-size: large;
+  font-weight: 400;
+  line-height: 2.3;
+  list-style: unset;
+  padding: 20px;
+}
+
+.glHeding {
+  font-size: x-large;
+  font-weight: 600;
+  margin: 25px 0px;
+}
+
+.glBox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.glTextBox {
+  width: 60%;
+}
+
+.glFormBox {
+  width: 35%;
+}
+
+.glfomeContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #f6f9fe;
+  border: solid 1px #195fbe;
+  padding: 20px;
+}
+
+.glfomeContainer form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: unset;
+}
+
+.glfomeContainer form label {
+  font-size: smaller;
+  color: #666;
+}
+
+.glfomeContainer form input {
+  width: 100%;
+  border-bottom: 2px solid #cad5e2;
+  margin: 10px 0px 45px 0px;
+  box-shadow: none;
+  border-radius: unset;
+  background: #f6f9fe;
+}
+
+.glfomeContainer form textarea {
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin: 30px 0px 50px 0px;
+  background: #f6f9fe;
+}
+
+.glfomeContainer form button {
+  background: #ff7a59;
+  border-color: #ff7a59;
+  color: #ffffff;
+  line-height: 12px;
+  padding: 15px;
+  font-size: medium;
+}
+
+.glSmallPara p {
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-size: medium;
+  color: black;
+}
+
+.glCard {
+  width: 30%;
+  background-color: #e8e8e8;
+  padding: 20px 10px 10px 10px;
+  border-width: 2px 2px 2px 2px;
+  border-radius: 0px;
+  border-color: #cccccc;
+  padding: 20px;
+}
+
+.glCard h3{
+  font-size: 24px;
+  color: #000000;
+  font-weight: 600;
+}
+.glCard h3 b{
+  font-weight: 600;
+}
+
+.glCard ul {
+  list-style: unset;
+  line-height: 2;
+  padding: 20px;
+}
+.glbuildYourQuoteBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+.glbuildYourQuoteBtn div {
+  padding: 20px;
+  border-radius: 5px;
+  font-size: large;
+  color: #fff;
+  font-weight: 500;
+  background: linear-gradient(#1e73be, #0065cd);
+}
+
+.glbusiness {
+  width: 23%;
+  text-align: center;
+}
+
+.glbusiness h3 {
+  font-size: 24px;
+    text-transform: none;
+    color: #ffffff;
+  background-color: #324968;
+  padding: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.glbusiness h3 b {
+  font-weight: 600;
+}
+
+.glbusiness ul {
+  border-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f4f4f4;
+
+}
+
+.glbusiness ul li {
+  width: 90%;
+  font-size: medium;
+  padding: 26px 5px;
+  text-align: left;
+  font-weight: 400;
+  color: black;
+  border-bottom: 1px solid #dadada ;
+}
+
+
+
+.glservebox {
+  width: 23%;
+}
+.glServeMainBox {
+  display: flex;
+  margin: 20px 5px;
+}
+
+.blueText {
+  padding-left: 10px;
+  padding-left: 10px;
+  font-size: larger;
+  color: #0065cd;
+}
+
+.glBenifitMainContainer {
+  background-color: #f2f3f9;
+}
+
+.glhomeContainer {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;
+}
+
+.glBenifitMainBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.glBenifitBox {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.glBenifitBox img {
+  width: 30%;
+}
+
+.glImg img {
+  width: 100%;
+}
+
+.glBenifitHeading {
+  font-size: x-large;
+  font-weight: 600;
+  margin: 25px 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .glBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .glTextBox {
+    width: 100%;
+  }
+  .glFormBox {
+    width: 100%;
+  }
+  .glCard {
+    width: 100%;
+    background-color: #e8e8e8;
+    padding: 20px 10px 10px 10px;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 0px;
+    border-color: #cccccc;
+    padding: 20px;
+    margin: 10px 0px;
+  }
+  .glbusiness {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0px;
+  }
+  .glservebox {
+    width: 100%;
+  }
+
+  .glBenifitBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .glBenifitBox img {
+    width: 20%;
+  }
+  .homeMainContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+}

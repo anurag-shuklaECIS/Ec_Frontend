@@ -1,0 +1,124 @@
+.labCoreParaText {
+  line-height: 1.6;
+  font-size: larger;
+  color: #222;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+}
+
+
+
+.labCorePreyoutube p:first-child{
+  color: #0065cf !important;
+  font-size: 30px !important;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+
+.labCorePreyoutube p:nth-child(2){
+  font-size: 20px !important;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.labCorePreyoutube p:nth-child(3){
+  font-size: 20px !important;
+  line-height: 3;
+  margin-bottom: 20px;
+}
+
+.labCorePre p:first-child{
+  color: #0065cf !important;
+  font-size: 30px !important;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.labCorePre p:nth-child(2){
+  font-size: 20px !important;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.labCorePre ul{
+  font-size: 20px !important;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.labCorePre p:nth-child(3){
+  font-size: 20px !important;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.labCorePre p:nth-child(4){
+  font-size: 20px !important;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.labCorePre p:nth-child(5){
+  font-size: 20px !important;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.labCorePre p:nth-child(6){
+  font-size: 20px !important;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.labCorePre p:first-child b {
+  font-weight: 700;
+}
+
+.labCorePre p:nth-child(1) b{
+  font-weight: 600;
+}
+.labCorePre p:nth-child(2) b{
+  font-weight: 700;
+}
+.labCorePre p:nth-child(3) b{
+  font-weight: 700;
+}
+.labCorePre p:nth-child(4) b{
+  font-weight: 700;
+}
+
+.labCorePre p:nth-child(5) b{
+  font-weight: 700;
+}
+.labCorePre p:nth-child(6) b{
+  font-weight: 700;
+}
+
+.labCorePreQuestion {
+margin-top: 50px;
+}
+.labCorePreQuestion h3{
+  font-size: 20px;
+  line-height: 1.2;
+
+}
+
+.labCorePreQuestion p{
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+
+.labCorePreQuestion ul{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  list-style: disc;
+  line-height: 1.7;
+  
+}

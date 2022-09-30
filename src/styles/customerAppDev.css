@@ -1,0 +1,94 @@
+.mobileTexBox p:first-child b {
+  font-weight: 700;
+}
+.mobileTexBox p b {
+  font-weight: normal;
+}
+
+.evenOddText p:nth-child(odd) {
+  font-size: 20px !important;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+.evenOddText p:nth-child(odd) b {
+  font-weight: normal;
+}
+.evenOddText p:nth-child(even) b {
+  font-weight: 700;
+}
+.evenOddText p:nth-child(even) {
+  color: #0065cf !important;
+  font-size: 30px !important;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.clientDevHeaderText {
+  color: #0065cf;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px 0px;
+  font-family: 'Jost', sans-serif;
+}
+
+.AppDevMainContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 0px;
+}
+
+.clientDevParaText p {
+  line-height: 1.9;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #222;
+  font-family: 'Jost', sans-serif;
+}
+
+.AppDevContainer {
+  width: 30%;
+}
+
+.smallTitileText {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 750px) {
+  .evenOddText p:nth-child(even) {
+    color: #0065cf !important;
+    font-size: 23px !important;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  .AppDevMainContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .AppDevContainer {
+    width: 100%;
+    margin: 0px 0px;
+  }
+  .clientDevHeaderText {
+    color: #0065cf;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 10px 0px;
+    font-family: 'Jost', sans-serif;
+  }
+  .djangoList {
+    list-style: disc;
+    font-size: medium;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 25px 15px;
+  }
+}
