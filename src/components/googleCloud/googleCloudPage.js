@@ -22,7 +22,7 @@ function googleCloudPage({}) {
     async function getUser() {
       try {
         const response = await fetch(
-          'https://techmergers.in/api/google/'
+          'https://ecinfosolutions.com/api/google/'
         );
 
         if (!response.ok) {

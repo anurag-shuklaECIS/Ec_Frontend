@@ -29,7 +29,7 @@ function pytDevPage({}) {
     console.log(values);
     axios({
       method: 'post',
-      url: 'https://techmergers.in/api/contact/',
+      url: 'https://ecinfosolutions.com/api/contact/',
       data: values,
     })
       .then(function (response) {
@@ -50,7 +50,7 @@ function pytDevPage({}) {
     async function getUser() {
       try {
         const response = await fetch(
-          'https://techmergers.in/api/python_django/'
+          'https://ecinfosolutions.com/api/python_django/'
         );
 
         if (!response.ok) {
@@ -73,7 +73,7 @@ function pytDevPage({}) {
     async function getUser() {
       try {
         const response = await fetch(
-          'https://techmergers.in/api/aws/'
+          'https://ecinfosolutions.com/api/aws/'
         );
 
         if (!response.ok) {

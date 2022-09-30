@@ -9,7 +9,7 @@ function Index({}) {
   useEffect(() => {
     async function getUser() {
       try {
-        const response = await fetch('https://techmergers.in/api/leadership/');
+        const response = await fetch('https://ecinfosolutions.com/api/leadership/');
         if (!response.ok) {
           throw new Error(`Error! status: ${response.status}`);
         }

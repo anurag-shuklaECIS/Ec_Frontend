@@ -22,7 +22,7 @@ function Footer() {
 
     axios({
       method: 'post',
-      url: 'https://techmergers.in/api/contact/',
+      url: 'https://ecinfosolutions.com/api/contact/',
       data: values,
     })
       .then(function (response) {

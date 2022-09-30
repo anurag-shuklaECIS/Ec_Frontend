@@ -15,7 +15,7 @@ function pytDevPage({}) {
   useEffect(() => {
     async function getUser() {
       try {
-        const response = await fetch('https://techmergers.in/api/shopify/');
+        const response = await fetch('https://ecinfosolutions.com/api/shopify/');
 
         if (!response.ok) {
           throw new Error(`Error! status: ${response.status}`);
@@ -37,7 +37,7 @@ function pytDevPage({}) {
     async function getUser() {
       try {
         const response = await fetch(
-          'https://techmergers.in/api/aws/'
+          'https://ecinfosolutions.com/api/aws/'
         );
 
         if (!response.ok) {

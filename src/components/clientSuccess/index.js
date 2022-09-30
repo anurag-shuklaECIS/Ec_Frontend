@@ -23,7 +23,7 @@ function Index({}) {
     async function getUser() {
       try {
         const response = await fetch(
-          'https://techmergers.in/api/client_success/'
+          'https://ecinfosolutions.com/api/client_success/'
         );
 
         if (!response.ok) {

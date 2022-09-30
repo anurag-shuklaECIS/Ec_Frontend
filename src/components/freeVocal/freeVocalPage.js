@@ -7,7 +7,7 @@ function IndexPage({}) {
     async function getUser() {
       try {
         const response = await fetch(
-          'https://techmergers.in/api/freevocal/'
+          'https://ecinfosolutions.com/api/freevocal/'
         );
 
         if (!response.ok) {

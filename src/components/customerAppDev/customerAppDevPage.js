@@ -8,7 +8,7 @@ function IndexPage({}) {
     async function getUser() {
       try {
         const response = await fetch(
-          'https://techmergers.in/api/custom_dev/'
+          'https://ecinfosolutions.com/api/custom_dev/'
         );
 
         if (!response.ok) {
